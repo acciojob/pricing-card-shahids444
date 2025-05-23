@@ -1,1 +1,23 @@
+
 /*  your css code here. If applicable */
+.card{
+	width:200px;
+	background-color:grey;
+	display: flex;
+	flex-direction: column;
+	padding:20px;
+	justify-content:center;
+	border-radius:10px;
+	align-items:center;
+	box-shadow:3px 4px 10px black;
+	
+}
+.card button{
+	color:white;
+	background-color:red;
+	border: none;
+	overflow-wrap: break-word;
+	cursor: pointer;
+	height: 40px;
+	width: 80px;
+}
